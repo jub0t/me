@@ -37,7 +37,7 @@ export function Overview({
           content={USER.address}
         />
 
-        <PhoneItem phoneEncoded={phoneEncoded} />
+        {/* <PhoneItem phoneEncoded={phoneEncoded} /> */}
 
         <EmailItem emailEncoded={emailEncoded} />
 

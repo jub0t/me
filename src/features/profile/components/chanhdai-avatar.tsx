@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import ImgAvatar from "@/../public/images/chanhdai-avatar.jpeg";
+import ImgAvatar from "@/../public/images/avatar.jpg";
 
 import { USER } from "../data/user";
 

@@ -64,8 +64,8 @@ export const ProfilePage = () => {
             <Projects />
             <Pattern />
 
-            <Blog />
-            <Pattern />
+            {/* <Blog />
+            <Pattern /> */}
           </main>
 
           <Footer />

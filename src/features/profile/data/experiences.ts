@@ -2,7 +2,7 @@ import { EExperiencePositionIcon, IExperience } from "../types/experiences";
 
 export const EXPERIENCES: IExperience[] = [
   {
-    company: "Simplamo Enterprise JSC",
+    company: "EstateKit",
     companyLogo: "/images/companies/simplamo.png",
     positions: [
       {
@@ -41,39 +41,35 @@ export const EXPERIENCES: IExperience[] = [
     current: true,
   },
   {
-    company: "Quaric Co., Ltd.",
+    company: "VarLab, LLC.",
     companyLogo: "/images/companies/quaric.png",
     positions: [
       {
         id: "30d3a9fb-021d-452a-9d27-83655369b4b9",
         title: "Software Engineer",
         year: "Mar 2024 - present",
-        employmentType: "Part-time",
+        employmentType: "Contract",
         icon: EExperiencePositionIcon.CodeXml,
         description:
-          "In-house Project: [Quaric Website](https://quaric.com)\n- Integrated the VNPAY-QR payment gateway, enabling seamless and secure transactions.\n- Registered the e-commerce website with the Ministry of Industry and Trade ([online.gov.vn](http://online.gov.vn/Home/WebDetails/115855)) to ensure compliance with regulatory requirements.\n- Developed an online ordering feature, streamlining the purchasing process for users.\n\nIn-house Project: [ZaDark](https://zadark.com)\n- Create and maintain ZaDark.com using Docusaurus, incorporating Google AdSense for monetization and analytics.\n- Develop and maintain the ZaDark extension for Zalo Web across Chrome, Safari, Edge, and Firefox.\n",
+          "In-house Project: [VarLab LLC](https://varlab.llc) \n - Integrated the VNPAY - QR payment gateway, enabling seamless and secure transactions.\n - Registered the e - commerce website with the Ministry of Industry and Trade([online.gov.vn](http://online.gov.vn/Home/WebDetails/115855)) to ensure compliance with regulatory requirements.\n- Developed an online ordering feature, streamlining the purchasing process for users.\n\n",
         skills: [
-          "Next.js",
-          "Strapi",
-          "VNPAY Payment API",
-          "Docker",
-          "NGINX",
-          "Docusaurus",
-          "Extension",
-          "Research",
-          "Project Management",
+          "Laravel",
+          "Discord.js",
+          "Typescript",
+          "PHP",
+          "Javascript"
         ],
         expanded: true,
       },
-      {
-        id: "991692c4-7d02-4666-8d31-933c4831768d",
-        title: "Founder / Director",
-        year: "Mar 2024 - present",
-        employmentType: "Part-time",
-        description:
-          "- Lead and manage the company's strategy.\n- Oversee technical teams and product development.\n- Manage relationships with customers and partners.",
-        skills: ["Business Ownership", "Business Law", "Business Tax"],
-      },
+      // {
+      //   id: "991692c4-7d02-4666-8d31-933c4831768d",
+      //   title: "Developer",
+      //   year: "Mar 2022 - 2024",
+      //   employmentType: "Contract",
+      //   description:
+      //     "- Lead and manage the company's strategy.\n- Oversee technical teams and product development.\n- Manage relationships with customers and partners.",
+      //   skills: ["Frontend Development", "Backend Development"],
+      // },
     ],
     current: true,
   },
