@@ -38,7 +38,7 @@ export function LogoResizeAnimation({
         setIsEnd(true);
       }}
     >
-      <motion.div
+      {/* <motion.div
         variants={variants}
         animate={isEnd ? "hide" : "show"}
         transition={{
@@ -51,9 +51,9 @@ export function LogoResizeAnimation({
         <div className="-top-[5px] -right-[5px]" />
         <div className="-bottom-[5px] -left-[5px]" />
         <div className="-right-[5px] -bottom-[5px]" />
-      </motion.div>
+      </motion.div> */}
 
-      <motion.div
+      {/* <motion.div
         variants={variants}
         animate={isEnd ? "hide" : "show"}
         transition={{
@@ -63,9 +63,9 @@ export function LogoResizeAnimation({
         className="absolute -top-[9px] left-1/2 -translate-x-1/2 -translate-y-full transform rounded-sm bg-blue-600 px-1 text-sm whitespace-nowrap text-white dark:bg-zinc-600"
       >
         {Math.round(width)} x {Math.round(width / 2)}
-      </motion.div>
+      </motion.div> */}
 
-      <ChanhDaiWordmark className="size-full text-black dark:text-white" />
+      {/* <ChanhDaiWordmark className="size-full text-black dark:text-white" /> */}
     </motion.div>
   );
 }

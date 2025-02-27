@@ -3,7 +3,6 @@ import he from "he";
 import { cn } from "@/lib/cn";
 
 import { About } from "./components/about";
-import { Blog } from "./components/blog";
 import { Confetti } from "./components/confetti";
 import { Experiences } from "./components/experiences";
 import { Footer } from "./components/footer";

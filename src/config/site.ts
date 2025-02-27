@@ -36,4 +36,4 @@ export const NAV_LINKS = [
   },
 ];
 
-export const SOURCE_CODE_GITHUB_URL = "https://github.com/ncdai/chanhdai.com";
+export const SOURCE_CODE_GITHUB_URL = "https://github.com/jub0t/me";

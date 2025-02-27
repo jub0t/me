@@ -20,6 +20,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "build:static": "npm run build && npm run export",
     "lint:fix": "next lint --fix",
     "preview": "next build && next start -p 1408",
     "prettier:check": "prettier --check ./src",

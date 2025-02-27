@@ -1,3 +1,7 @@
+// const birthYear = 2007;
+// const currentYear = new Date().getFullYear();
+// const Age = currentYear - birthYear;
+
 export const USER = {
   firstName: "Jareer",
   lastName: "Abdullah",
@@ -6,6 +10,7 @@ export const USER = {
   gender: "male",
   bio: "Creating with code, driven by passion.",
   flipSentences: [
+    "Chief Technology Officer",
     "Software Developer",
     "Entrepreneur"
   ],
@@ -13,18 +18,8 @@ export const USER = {
   phoneNumber: "", // E.164 format
   email: "jub0trd@gmail.com",
   website: "https://verusnovem.com",
-  otherWebsites: [
-    // "https://dai.ng",
-    // "https://dai.so",
-    // "https://d.io.vn",
-    // "https://d.id.vn",
-    // "https://dai.io.vn",
-    // "https://dai.id.vn",
-    // "https://dai.is-a.dev",
-    // "https://chanhdai.io.vn",
-    // "https://chanhdai.id.vn",
-  ],
-  dateOfBirth: "2007-11-26", // YYYY-MM-DD
+  otherWebsites: [],
+  dateOfBirth: "2007-11-26",
   jobTitle: "Software Developer",
   jobs: [
     {
@@ -32,17 +27,12 @@ export const USER = {
       company: "EstateKit™",
       website: "https://www.linkedin.com/company/estatekit-co",
     },
-    // {
-    //   title: "Founder / Director",
-    //   company: "Quaric",
-    //   website: "https://quaric.com",
-    // },
   ],
-  about: ``,
+  about: `My main areas of interest are Open Source, SaaS, and Education Technology. I've got years of hands on experience with web technologies and occasionally study/experiment AI, Blockchain and Game Development.`,
   avatar: "/images/avatar.jpg",
   ogImage: "",
   keywords:
-    "jareer, jub0t, jareer abdullah",
+    "jareer, jub0t, jareer abdullah, developer, entrepreneur",
   dateCreated: "2025-2-25", // YYYY-MM-DD
   dateModified: "2025-2-25", // YYYY-MM-DD
 };

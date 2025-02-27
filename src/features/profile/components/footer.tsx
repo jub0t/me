@@ -48,7 +48,7 @@ export function Footer() {
       </div>
 
       <div className="pb-2">
-        <a
+        {/* <a
           href="https://www.dmca.com/Protection/Status.aspx?ID=85a452ca-06aa-4352-bfeb-7cb563dbd2b9&refurl=https://chanhdai.com/"
           title="DMCA.com Protection Status"
           aria-label="DMCA.com Protection Status"
@@ -67,14 +67,14 @@ export function Footer() {
               fill="currentColor"
             />
           </svg>
-        </a>
+        </a> */}
       </div>
 
-      <div className="long-line-before relative w-full">
+      {/* <div className="long-line-before relative w-full">
         <div className="relative z-1 -mx-px pt-4 pb-2">
           <WordmarkHoverEffect />
         </div>
-      </div>
+      </div> */}
     </footer>
   );
 }
